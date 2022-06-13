@@ -1,0 +1,47 @@
+@media screen and (max-width: 1100px)  {
+    #mar__left {margin-left: 60px;}
+}
+@media screen and (max-width: 1350px) {
+    .my__text__2 {
+        height: 120px;  
+    }
+}
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+        align-items: end !important;
+    }
+    li.nav-item {
+        width: 137px;
+        height: 52px;   
+        background: #8D5CF6 ;
+        opacity: 0.8;
+    }
+}
+@media screen and (max-width: 767px) {
+    .row__main {margin-top: 750px !important;}
+    .my__container__img_2 { padding: 0; }
+    .my__mt {margin-top: 100px !important;}
+    .layout__4 {margin-top: 250px !important;}
+    .layout__5 {margin-top: 100px !important;}
+    .faq__1 {height: 1400px;}
+}
+@media screen and (max-width: 617px) {
+    .faq__1 {height: 1600px;}
+} 
+@media screen and (max-width: 580px) {
+    .layout__5 {margin-top: 1100px !important;}
+    .faq__1 {margin-top: 600px;}
+    .faq__1 {height: 2000px;}
+}
+
+@media screen and (max-width: 495px) {
+    .row__main {margin-top: 900px !important;}
+    .my__mt {margin-top: 220px !important;}
+    .layout__4 {margin-top: 300px !important;}
+    .layout__5 {margin-top: 1330px !important;}
+    .faq__1 {margin-top: 700px;}
+    .faq__1 {height: 2300px;}
+}
+@media screen and (max-width: 353px) {
+    .faq__1 {height: 2500px;}
+}

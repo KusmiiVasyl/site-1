@@ -1,0 +1,416 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+html {overflow: auto !important;}
+header {
+    background: url(..//images/img__2.PNG) no-repeat;
+    background-size: contain;
+}
+/* Navigation ------------------------------*/
+.navbar-expand-lg {
+    height: 91px;
+}
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF !important;
+}
+.navbar-expand-lg .navbar-nav-scroll {
+    align-items: center;
+    padding: 0 100px;
+    gap: 21px;    
+    max-width: 650px;
+    height: 24px;
+    margin-right: 0 !important;
+}
+a.a__1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF !important;
+}
+.navbar-nav {
+    align-items: center !important;
+}
+.btn__join__us {
+    width: 137px;
+    height: 52px;   
+    background: #8D5CF6 !important;
+    color: #FFFFFF !important;
+    border-radius: 5px;
+}
+#mar__left {margin-left: 150px;}
+/* ------------------------------------------ */
+/* Container onlain trining ------------------*/
+.online__training {
+    display: flex;
+    margin-top:80px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 35px;
+    max-width: 500px;
+    max-height: 600px;
+}
+h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF !important;
+}
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px !important;
+    line-height: 80px !important;
+    letter-spacing: 0.2px !important;
+    color: #FFFFFF !important;
+}
+h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF !important;
+}
+.btn__get_qoute_now {
+    margin: 5px 0;
+    width: 193px;
+    height: 52px;
+    background: #8D5CF6 !important;
+    border-radius: 5px;
+}
+.btn__learn_more {
+    margin: 5px 0;
+    width: 162px;
+    height: 52px;
+    border: 1px solid #ECECEC !important;
+    border-radius: 5px;
+}
+.btn__text {
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    text-align: center !important;
+    letter-spacing: 0.2px !important;
+    color: #FFFFFF !important;
+} 
+/* ------------------------------------------ */
+/* Card course  ------------------------------*/
+.card__size_1 {
+    max-width: 370px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px 40px;
+    gap: 20px;
+}
+h3.text_1 {
+    width: 172px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px !important;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.my__hr_1 {
+    width: 50px;
+    border-top: 2px solid #E74040 !important;
+    opacity: 1;
+}
+.my__text__2 {
+    max-width: 230px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    
+}
+/* ------------------------------------------ */
+
+/* Layout 2 --------------------------------- */
+.layout__2 {
+    max-width: 1440px;
+    height: 761px;
+}
+.row__main {margin-top: 150px !important;}
+.row__container_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 160px 0px;
+    position: absolute;
+    width: 1050px;
+    height: 771px;
+    left: calc(50% - 1050px/2);
+    top: 0px;
+}
+.my__container__img_1 {
+    max-width: 414px;
+    height: 451px;
+    border-radius: 41px;
+    padding: 100px 0 0 10px;
+}
+.my__img_1 {
+    width: 100% !important;
+    height: auto;
+}
+.our__expert__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 35px;
+    max-width: 381px;
+    height: auto;
+}
+.my__h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 50px !important;
+    line-height: 70px !important;
+    letter-spacing: 0.2px !important;
+    color: #FFFFFF;
+}
+.my__text__3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 20px !important;
+    letter-spacing: 0.2px !important;
+    color: #FFFFFF;
+}
+.my__h6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #8D5CF6;
+}
+a.a__2 {
+    display: flex;
+    text-decoration: none;
+}
+/* ------------------------------------------ */
+
+/* Layout 3 --------------------------------- */
+.layout__3 {
+    max-width: 1440px;
+    height: 676px;
+    margin-left: 10px;
+}
+.my__container__img_2 {
+    padding: 0 0 0 30px;
+    gap: 30px;
+    max-width: 550px;
+    height: 363px;
+}
+.my__img_2 {
+    width: 100% !important;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.my__mt { margin-top: 50px;}
+/* ------------------------------------------ */
+
+/* Layout 4 --------------------------------- */
+.layout__4 {
+    max-width: 1440px;
+    height: 1100px;
+}
+.div__img__card {
+    background: url(..//images/istockphoto-1296463018-170667a.jpeg) no-repeat center;
+    max-width: 455px;
+    height:300px;
+}
+.icon__sale {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+    position: absolute;
+    width: 51px;
+    height: 24px;
+    left: 20px;
+    top: 20px;
+    background: #E74040;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+.span__sale__icon {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.sales {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    color: #737373;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 3px;
+    gap: 5px;
+    width: 108px;
+    height: 34px;
+}
+.span__price {
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #BDBDBD;
+    padding-top: 15px;
+}
+.btn__price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 10px 0 10px;
+    max-width: 160px;
+    height: 50px;
+    margin-top:15px;
+    border: 1px solid #8D5CF6;
+    border-radius: 37px;
+    background-color: #FFFFFF;
+
+    transition: border .2s linear;
+}
+.btn__price:hover {
+    border: 3px dotted #8D5CF6;
+}
+.review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    max-width: 350px;
+    height: auto;
+
+}
+.response {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+    width: 60px;
+    height: 26px;
+    background: #26335D;
+    border-radius: 20px; 
+}
+
+/* ------------------------------------------ */
+
+/* Layout 5 --------------------------------- */
+.layout__5 {
+    max-width: 1440px;
+    height: 855px;
+}
+.img__foto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.my__text_4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+/* ------------------------------------------ */
+
+/* FAQ 1 --------------------------------- */
+.faq__1 {
+    max-width: 1440px;
+    height: 1150px;
+}
+.my__text__5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+/* ------------------------------------------ */
+
+/* Layout 6 --------------------------------- */
+.layout__6 {
+    max-width: 1440px;
+    height: 594px;
+}
+.btn__email {
+    border-radius: 0 7px 7px 0 !important;
+    padding: 0 20px !important;
+    outline: 1px solid #FFFFFF;
+    background-color: #8D5CF6 !important;
+    font-weight: bold;
+
+    transition: outline .2s linear;
+}
+.btn__email:hover {
+    outline: none;
+}
+/* ------------------------------------------ */
+/* Footer ----------------------------------- */
+footer {
+    max-width: 1440px;
+    height: auto;
+}
+.a__1_2:hover {text-decoration: 2px underline !important;}
+/* ------------------------------------------ */
